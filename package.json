@@ -1,10 +1,11 @@
 {
   "scripts": {
-    "start": "snowpack dev",
+    "serve": "snowpack dev",
     "build": "snowpack build",
     "test": "echo \"This template does not include a test runner by default.\" && exit 1"
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "vue": "3.0.0"
   },
   "devDependencies": {
